@@ -76,3 +76,30 @@ li a{
 .ml{
     margin-left: 78px;
 }
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    width: 100px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.card i {
+    font-size: 200px;
+    color: purple;
+}
