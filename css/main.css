@@ -105,3 +105,18 @@ li a{
     font-size: 100px;
     color: purple;
 }
+
+footer {
+    background: #757575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer .foot-container {
+    text-align: center;
+    color: #fff;
+}
+.mt {
+    margin-top: 1.5rem;
+}
