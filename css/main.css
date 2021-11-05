@@ -80,11 +80,11 @@ li a{
 
 .container {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+   
 }
 .row {
-    width: 90%;
+    width: 93%;
     margin: auto;
     display: grid;
     gap: 20px;
