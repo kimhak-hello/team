@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 
 }
 .active{
@@ -83,7 +84,8 @@ li a{
     justify-content: center;
 }
 .row {
-    width: 100px;
+    width: 90%;
+    margin: auto;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4,1fr);
@@ -92,7 +94,7 @@ li a{
 }
 
 .card {
-    width: 300px;
+    width: 220px;
     padding: 30px;
     border: 1px solid black;
     text-align: center;
@@ -100,6 +102,6 @@ li a{
 }
 
 .card i {
-    font-size: 200px;
+    font-size: 100px;
     color: purple;
 }
