@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.active{
+    background: purple;
+    border-radius: 10px;
+    color: white;
+   
+}
+.color{
+    color: white;
+}
+i{
+    padding: 0 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(231, 231, 230);
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+
+}
+li{
+    padding: 15px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
